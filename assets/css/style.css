@@ -1,0 +1,92 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    padding: 1em;
+    background: black;
+    color: rgb(0, 153, 0);
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    min-height: 50vh;
+}
+
+h4 {
+    color: #ebebeb;
+    font-size: 1.6em;
+    padding: 0.5em 0;
+}
+
+p {
+    padding: 0.5em 0;
+    color: #ebebeb;
+}
+
+#controls {
+    background: #333;
+    border-radius: 10px;
+    padding: 0.5em;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.75) inset;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #333;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.75) inset;
+}
+
+/* progress::-webkit-progress-value {
+    background-color: #333 !important;
+} */
+
+progress {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 80%;
+    margin: 1em;
+}
+
+#trackList {
+    background: #333;
+    border-radius: 10px;
+    padding: 0.5em;
+    text-align: left;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.75) inset;
+}
+
+li {
+    padding: 1em;
+    transition: all 0.25s;
+}
+
+li:hover {
+    cursor: pointer;
+    color: rgb(0, 138, 0);
+    background: rgb(61, 61, 61);
+    border-radius: 10px;
+}
+
+svg:hover {
+    cursor: pointer;
+    color: rgb(0, 138, 0);
+    border-radius: 10px;
+}
+
+svg {
+    transition: all 0.25s;
+}
+
+svg:hover {
+    color: rgb(0, 102, 0);
+}
+
+#currentPlayTrack {
+    font-size: 1.4em;
+    margin: 0.5em 0;
+    color: #ebebeb;
+}
+
+#currentTrack {
+    margin: 0.5em 0;
+    
+}
