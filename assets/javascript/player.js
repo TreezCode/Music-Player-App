@@ -1,11 +1,14 @@
 
 const tracks = [
-    "01. Rain ft. Vince Staple.mp3",
-    "02. Funeral.mp3",
-    "03. Fight the Feeling.mp3",
-    "04. Sleep.mp3",
-    "05. 1 Thew 8.mp3",
-    "06. Happy Birthday.mp3"
+    "Random Stevie Wonder Cover.mp3",
+    "Funeral.mp3",
+    "Day One (A Song About Nothing).mp3",
+    "Rain ft. Vince Staple.mp3",
+    "Sleep.mp3",
+    "Hurt Feelings.mp3",
+    "Fight the Feeling.mp3",
+    "1 Thew 8.mp3",
+    "2009.mp3"
 ]
 
 const createTrackList = () => {
@@ -30,7 +33,7 @@ trackList.onclick = (e) => {
     source.src = 'assets/audio/' + clickedItem.innerText;
     console.log(clickedItem.innerText);
 
-    document.getElementById('currentPlayTrack').innerHTML = "Playing: "
+    document.getElementById('currentPlayTrack').innerHTML = "Now Playing: "
     document.getElementById('currentTrack').innerText = clickedItem.innerText;
 
     player.load();
